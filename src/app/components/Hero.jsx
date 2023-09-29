@@ -35,7 +35,7 @@ function Hero() {
               </p>
               <div className="flex justify-center items-center">
                 <button className="btn btn-primary bg-slate-800 border border-black text text-white ">
-                  <a href="/contact">Contact US</a>
+                  <a href="/contactus">Contact US</a>
                 </button>
               </div>
             </div>
