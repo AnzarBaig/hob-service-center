@@ -10,7 +10,7 @@ function Page() {
       <header className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-16">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold mb-6 mx-4">
-            Gas Stove Repair & Services in Saraipalya, Bangalore
+            Gas Stove Repair & Services in Delhi Ncr, Bangalore, hyderabad
           </h1>
           <p className="text-lg mb-8 mx-4">
             Your Trusted Partner for Gas Stove Solutions
