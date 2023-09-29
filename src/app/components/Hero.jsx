@@ -18,7 +18,7 @@ function Hero() {
                 <h1 class="text-5xl font-extrabold text-indigo-800 tracking-wide">
                   <span class="gradient-text">Welcome to</span>
                 </h1>
-                <h2 class="text-3xl font-semibold text-gray-600 mb-4">
+                <h2 class="text-3xl font-semibold text-gray-600 mb-4 gradient-text">
                   India Gas Stove Services
                 </h2>
                 <p class="text-lg text-gray-500">
