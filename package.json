@@ -9,15 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@mantine/carousel": "^7.1.0",
+    "@mantine/core": "^7.1.0",
+    "@mantine/hooks": "^7.1.0",
+    "@material-tailwind/react": "^2.1.2",
+    "@tabler/icons-react": "^2.37.0",
+    "embla-carousel-react": "^8.0.0-rc14",
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.6.1",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^3.8.1",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "^8.4.30",
+    "tailwindcss": "latest"
   }
 }
