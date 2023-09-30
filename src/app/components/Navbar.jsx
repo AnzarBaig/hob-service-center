@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
+Link;
 export default function Navbar() {
   const whatsappNumber = "7899327800";
   return (
@@ -27,43 +29,43 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/aboutus">About Us</a>
+              <Link href="/aboutus">About Us</Link>
             </li>
             <li>
-              <a href="/contactus">Contact Us</a>
+              <Link href="/contactus">Contact Us</Link>
             </li>
             <li>
-              <a href="/aboutus">Our Services</a>
+              <Link href="/aboutus">Our Services</Link>
             </li>
           </ul>
         </div>
         <Image src="/logo.webp" alt="logo" height={40} width={30} href="/" />
-        <a href="/" className="btn btn-ghost normal-case text-xl">
+        <Link href="/" className="btn btn-ghost normal-case text-xl">
           Hob Service Center
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="/aboutus">About Us</a>
+            <Link href="/aboutus">About Us</Link>
           </li>
           <li>
-            <a href="/contactus">Contact Us</a>
+            <Link href="/contactus">Contact Us</Link>
           </li>
           <li>
-            <a href="/aboutus">Our Services</a>
+            <Link href="/aboutus">Our Services</Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end ">
-        <a
+        <Link
           href={`https://wa.me/${whatsappNumber}`}
           target="_blank"
           rel="noopener noreferrer"
           className="text-green-500 hover:underline text-xl ml-2"
         >
           <FaWhatsapp className="inline-block mx-2 text-3xl" />
-        </a>
+        </Link>
       </div>
     </div>
   );
